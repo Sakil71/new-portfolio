@@ -1,0 +1,65 @@
+p {
+    text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
+}
+
+.container {
+    color: #e5e5e5;
+}
+
+.animation {
+    padding: 10px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.animation>div>div {
+    height: 2.81rem;
+    margin-bottom: 2.81rem;
+    display: inline-block;
+}
+
+.animation div:first-child {
+    animation: text-animation 8s infinite;
+}
+
+@keyframes text-animation {
+    0% {
+        margin-top: 0;
+    }
+
+    10% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: -4.50rem;
+    }
+
+    30% {
+        margin-top: -3.80rem;
+    }
+
+    40% {
+        margin-top: -9.3rem;
+    }
+
+    60% {
+        margin-top: -10rem;
+    }
+
+    70% {
+        margin-top: -3.80rem;
+    }
+
+    80% {
+        margin-top: -4.50rem;
+    }
+
+    90% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
