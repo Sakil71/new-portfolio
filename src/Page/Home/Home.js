@@ -1,4 +1,7 @@
 import React from 'react';
+import About from '../About/About';
+import Projects from '../Projects/Projects';
+import Skills from '../Skills/Skills';
 import './Home.css'
 
 const Home = () => {
@@ -30,6 +33,12 @@ const Home = () => {
                         </main>
                     </div>
                 </div>
+            </div>
+
+            <div className="md:hidden lg:hidden">
+                <Skills></Skills>
+                <Projects></Projects>
+                <About></About>
             </div>
         </section>
     );

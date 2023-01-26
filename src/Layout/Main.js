@@ -5,7 +5,7 @@ import LeftNav from '../Page/LeftNav/LeftNav';
 const Main = () => {
     return (
         <div className='flex'>
-            <div>
+            <div className='hidden md:block lg:block'>
                 <LeftNav></LeftNav>
             </div>
             <div className='bg-slate-400 w-full'>

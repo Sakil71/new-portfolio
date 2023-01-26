@@ -11,9 +11,9 @@ const LeftNav = () => {
 
     const menus = [
         { title: 'Home', href: '/', icon: <FaHome></FaHome> },
-        { title: 'About', href: 'about', icon: <FaInfoCircle></FaInfoCircle> },
-        { title: 'Skills', href: 'skills', icon: <FaCertificate></FaCertificate>, gap:true},
         { title: 'Projects', href: 'projects', icon: <FaProjectDiagram></FaProjectDiagram> },
+        { title: 'Skills', href: 'skills', icon: <FaCertificate></FaCertificate>, gap:true},
+        { title: 'About', href: 'about', icon: <FaInfoCircle></FaInfoCircle> },
         { title: 'Blog', href: 'blog', icon: <FaMicroblog></FaMicroblog>, gap:true},
         { title: 'Contact', href: 'contact', icon: <FaRegIdBadge></FaRegIdBadge> },
     ]
