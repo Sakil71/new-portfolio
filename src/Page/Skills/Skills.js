@@ -15,7 +15,7 @@ const Skills = () => {
     return (
 
         <section>
-            {/* <h1 className='text-2xl text-red-400 font-bold text-center'>Skills</h1> */}
+            <h1 className='text-center text-3xl font-bold mt-5 text-black'>Skills</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-8'>
                 {
                     skillImages.map((image, i) =>

@@ -48,7 +48,7 @@ const LeftNav = () => {
                 <a href={pdf} download className={`text-gray-300 font-amita flex items-center justify-center gap-x-4 hover:bg-light-white rounded-md px-5 lg:justify-start md:justify-start mt-9 btn btn-outline hover:text-yellow-400`}>
                     <span className='text-2xl'><FaDownload></FaDownload></span>
                     <span className={`text-xs hidden md:block lg:blo'
-                     ${!open && 'scale-0'}`}>My CV</span>
+                     ${!open && 'scale-0'}`}>My Resume</span>
                 </a>
             </div>
         </div>

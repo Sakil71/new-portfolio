@@ -5,6 +5,9 @@ import About from './Page/About/About';
 import Blog from './Page/Blog/Blog';
 import Contact from './Page/Contact/Contact';
 import Home from './Page/Home/Home';
+import Doctors from './Page/Projects/Doctors/Doctors';
+import Emazon from './Page/Projects/Emazon/Emazon';
+import Gymnasium from './Page/Projects/Gymnasium/Gymnasium';
 import Projects from './Page/Projects/Projects';
 import Skills from './Page/Skills/Skills';
 const routes = createBrowserRouter([
@@ -39,7 +42,31 @@ const routes = createBrowserRouter([
       {
         path: 'contact',
         element: <Contact></Contact>
-      }
+      },
+      {
+        path:'projects/gym',
+        element: <Gymnasium></Gymnasium>
+      },
+      {
+        path:'projects/ema',
+        element: <Emazon></Emazon>
+      },
+      {
+        path:'projects/doc',
+        element: <Doctors></Doctors>
+      },
+      {
+        path:'gym',
+        element: <Gymnasium></Gymnasium>
+      },
+      {
+        path:'ema',
+        element: <Emazon></Emazon>
+      },
+      {
+        path:'doc',
+        element: <Doctors></Doctors>
+      },
     ]
   }
 ])

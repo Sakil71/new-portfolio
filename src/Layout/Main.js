@@ -8,7 +8,7 @@ const Main = () => {
             <div className='hidden md:block lg:block'>
                 <LeftNav></LeftNav>
             </div>
-            <div className='bg-slate-400 w-full'>
+            <div className=' w-full'>
                 <Outlet></Outlet>
             </div>
         </div>

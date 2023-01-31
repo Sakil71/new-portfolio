@@ -7,7 +7,7 @@ import './Home.css'
 const Home = () => {
     return (
         <section>
-            <div className="hero h-screen" style={{ backgroundImage: `url("https://i.ibb.co/wp0tH5n/bg.jpg")` }}>
+            <div className="hero lg:h-screen md:h-screen h-80 lg:w-full md:w-full w-10/12 mx-auto" style={{ backgroundImage: `url("https://i.ibb.co/wp0tH5n/bg.jpg")` }}>
                 <div className="hero-overlay bg-opacity-70"></div>
                 <div className="hero-content text-start text-neutral-content">
                     <div className="max-w-md">
