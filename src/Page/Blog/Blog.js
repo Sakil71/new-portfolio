@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-            <div className='min-h-screen flex justify-center items-center'>
+            <div className='flex justify-center items-center'>
                 <progress className="progress w-56"></progress>
             </div>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '../Navbar/Navbar';
 
 const projectsImage = [
     { name: "Doctors Portal", navigate:'doc', img: "https://i.ibb.co/kSmBXcv/doc1.png", live:'https://doctors-portal-24-7.netlify.app/', server: 'https://github.com/Sakil71/doctors-portal' },

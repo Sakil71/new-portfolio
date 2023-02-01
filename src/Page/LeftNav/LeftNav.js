@@ -4,7 +4,7 @@ import arrow from '../../assets/arrow-left-solid.svg'
 import shakil from '../../assets/Shakil AHamed.jpg'
 import { FaCertificate, FaDownload, FaHome, FaInfoCircle, FaMicroblog, FaProjectDiagram, FaRegIdBadge } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import pdf from '../../assets/ShakilAhamed_InternshalaResume.pdf'
+import pdf from '../../assets/Shakil Ahamed (2).pdf'
 
 const LeftNav = () => {
     const [open, setOpen] = useState(true);
